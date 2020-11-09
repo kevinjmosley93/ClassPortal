@@ -12,5 +12,30 @@
   background-size: cover;
 }
 
-.card-text {
+a {
+  color: #fff;
+  text-decoration: none;
+  :link {
+    text-decoration: none;
+  }
+  :visited {
+    text-decoration: none;
+    color: darkorchid;
+  }
+  :hover {
+    text-decoration: none;
+    color: #535050;
+    cursor: pointer;
+  }
+  :active {
+    text-decoration: none;
+    color: blue;
+  }
+}
+.card:hover {
+  transition: all 0.2s ease-out;
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+  top: -2px;
+  border: 1px solid #cccccc;
+  background-color: white;
 }
