@@ -1,4 +1,10 @@
 @import "~bootstrap/scss/bootstrap";
+* {
+  font-family: "Handlee", cursive;
+  font-weight: 600;
+  text-shadow: 0.5px 0.5px #000000;
+}
+
 #jumboImg {
   background-image: linear-gradient(
       to bottom,
@@ -42,4 +48,26 @@ a {
 
 #headContainer {
   font-size: x-large;
+}
+
+#bg-img {
+  background-image: url("https://giphy.com/gifs/aWJMXfmOKNSTEPMVik/html5");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.btn:hover {
+  transition: all 0.2s ease-out;
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+  top: -4px;
+  border: 1px solid #cccccc;
+  background-color: rgb(153, 151, 151);
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  [class*="logoText"] {
+    display: none;
+  }
 }
