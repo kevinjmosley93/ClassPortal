@@ -72,7 +72,16 @@ a {
   border: 1px solid #cccccc;
   background-color: rgb(153, 151, 151);
 }
-
+#social {
+  font-size: x-large;
+}
+#footer {
+  background-image: url("https://giphy.com/gifs/aWJMXfmOKNSTEPMVik/html5");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
 @media only screen and (max-width: 600px) {
   /* For mobile phones: */
   [class*="logoText"] {
