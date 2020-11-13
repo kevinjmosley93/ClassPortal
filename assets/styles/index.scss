@@ -72,16 +72,20 @@ a {
   border: 1px solid #cccccc;
   background-color: rgb(153, 151, 151);
 }
+#social:hover {
+  transition: all 0.2s ease-out;
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+  top: -4px;
+  border: 1px solid #cccccc;
+  background-color: rgb(153, 151, 151);
+}
 #social {
   font-size: x-large;
 }
-#footer {
-  background-image: url("https://giphy.com/gifs/aWJMXfmOKNSTEPMVik/html5");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
+#foot {
+  font-size: x-small;
 }
+
 @media only screen and (max-width: 600px) {
   /* For mobile phones: */
   [class*="logoText"] {
