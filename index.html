@@ -18,10 +18,11 @@
 
 <body class="bg-secondary">
   <header id="headContainer">
-    <nav class=" navbar d-flex justify-content-between bg-info">
+    <nav class="navbar d-flex justify-content-between bg-info">
       <a href="#" data-toggle="tooltip" data-placement="bottom" title="Sign Out"><i
           class="fas fa-sign-out-alt ml-2 text-dark"></i></a>
-      <a href="#" class="text-dark"><i class="fas fa-university p-2 text-dark"></i> <span class="logoText">Billionaire
+      <a href="#" class="text-dark"><i class="fas fa-university p-2 text-dark"></i> <span
+          class="logoText navbar-brand">Billionaire
           University</span></a>
       <a href="#" class="mr-2 text-dark" data-toggle="tooltip" data-placement="bottom" title="Signed In"><i
           class="far fa-user mr-1 text-dark"></i><span class="logoText"> Logged In</span>
@@ -68,7 +69,7 @@
   <div class="container-fluid" id="btnContainer">
 
     <div class="row">
-      <button type="button" class="btn btn-info m-2 text-dark col" data-toggle="collapse"
+      <button type="button" class="btn btn-info m-2 text-dark col" data-toggle="collapse" aria-="false"
         data-target="#courseContent"><i class="fad fa-chalkboard-teacher p-1"></i>Course
         Content</button>
       <button type="button" class="btn btn-info m-2 text-dark col" data-toggle="modal" data-target="#exampleModal"><i
@@ -103,7 +104,7 @@
     </div>
     <!-- End Annoucement Model Content -->
     <!-- Course Content -->
-    <div id="courseContent" class="collapse">
+    <div id="courseContent" class="show">
       <div class="m-4 p-2 container">
         <div class="row row-cols-1 row-cols-md-3 px-2">
           <div class="col mb-4">

@@ -62,8 +62,8 @@ a {
 }
 
 #headContainer {
+  position: -webkit-sticky;
   position: sticky;
-  top: 0;
 }
 .btn:hover {
   transition: all 0.2s ease-out;
